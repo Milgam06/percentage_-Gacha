@@ -8,7 +8,7 @@ while True:
     time.sleep(0.01)
     if x == 10:
         a = random.uniform(0, 10)
-        if a >= 9.9:
+        if a >= 5:
             print("넘어간다아ㅏㅏ")
             total = 100 * (1 / y)
             print(f"당신의 확률은 {total}% 입니다.")
